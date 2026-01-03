@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Social Media Profile</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="profile-container">
+        <div class="profile-header">
+            <div class="cover-photo"></div>
+            <div class="profile-info">
+                <div class="profile-picture">👤</div>
+                <h1>John Doe</h1>
+                <p class="bio">Web Developer | Tech Enthusiast | Coffee Lover</p>
+                <div class="stats">
+                    <div class="stat">
+                        <span class="number">150</span>
+                        <span class="label">Posts</span>
+                    </div>
+                    <div class="stat">
+                        <span class="number">1.2K</span>
+                        <span class="label">Followers</span>
+                    </div>
+                    <div class="stat">
+                        <span class="number">500</span>
+                        <span class="label">Following</span>
+                    </div>
+                </div>
+                <button class="follow-btn">Follow</button>
+            </div>
+        </div>
+        <div class="content-tabs">
+            <button class="tab active" data-tab="posts">Posts</button>
+            <button class="tab" data-tab="about">About</button>
+            <button class="tab" data-tab="photos">Photos</button>
+        </div>
+        <div class="content">
+            <div id="posts" class="tab-content active">
+                <div class="post">
+                    <div class="post-header">
+                        <div class="post-author">👤 John Doe</div>
+                        <div class="post-date">2 hours ago</div>
+                    </div>
+                    <div class="post-content">Just finished building an amazing web application! #webdev #coding</div>
+                    <div class="post-actions">
+                        <button>❤️ Like</button>
+                        <button>💬 Comment</button>
+                        <button>🔗 Share</button>
+                    </div>
+                </div>
+                <div class="post">
+                    <div class="post-header">
+                        <div class="post-author">👤 John Doe</div>
+                        <div class="post-date">1 day ago</div>
+                    </div>
+                    <div class="post-content">Learning React has been an incredible journey! The component-based architecture is so powerful.</div>
+                    <div class="post-actions">
+                        <button>❤️ Like</button>
+                        <button>💬 Comment</button>
+                        <button>🔗 Share</button>
+                    </div>
+                </div>
+            </div>
+            <div id="about" class="tab-content">
+                <h3>About</h3>
+                <p>Passionate web developer with 5+ years of experience. Love creating beautiful and functional web applications.</p>
+                <h4>Skills</h4>
+                <div class="skills">
+                    <span>JavaScript</span>
+                    <span>React</span>
+                    <span>Node.js</span>
+                    <span>CSS</span>
+                    <span>HTML</span>
+                </div>
+            </div>
+            <div id="photos" class="tab-content">
+                <div class="photo-grid">
+                    <div class="photo">📷</div>
+                    <div class="photo">📷</div>
+                    <div class="photo">📷</div>
+                    <div class="photo">📷</div>
+                    <div class="photo">📷</div>
+                    <div class="photo">📷</div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
+
